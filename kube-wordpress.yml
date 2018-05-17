@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: wordpress
+  labels:
+    name: wordpress
+spec:
+  containers:
+
+   - image: redis:3-alpine
+     name: redis
+
+   - image: msangapu/wordpress
+     name: wordpress
+     ports:
+     - containerPort: 80
+       name: wordpress
+     volumeMounts:
+      - name: appservice-storage
+        mountPath: /var/www/html
+        subPath: /site/wwwroot
+  volumes:
+    - name: appservice-storage
+      hostConfig:
+        path: ${WEBAPP_STORAGE_HOME}

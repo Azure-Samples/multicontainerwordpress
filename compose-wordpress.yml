@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+   wordpress:
+     image: msangapu/wordpress
+     ports:
+       - "8000:80"
+     restart: always
+
+   redis:
+     image: redis:3-alpine
+     restart: always
