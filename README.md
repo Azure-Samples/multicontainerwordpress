@@ -1,57 +1,20 @@
-# Project Name
+# Multi-container using Docker Compose and Kubernetes in Azure Web App for Containers
+This custom image is based on the 'official image' of [WordPress from Docker Hub](https://hub.docker.com/_/wordpress/).
 
-(short, 1-3 sentenced, description of the project)
+The following changes have been made in this custom image:
+* [Explicitly uses WordPress 4.9.5, PHP 7.2 and Apache.]()
+* [Adds PHP extension for Redis v4.0.2.]()
+* [Adds Baltimore Cyber Trust Root Certificate file for SSL to MySQL.]()
+* [Uses App Setting for MySQL SSL Certificate Authority certificate in WordPress wp-config.php.]()
+* [Uses App Seting for Redis host name in WordPress wp-config.php.]()
+* [Uses Redis Object Cache 1.3.8 WordPress plugin.]()
 
-## Features
+## Setting up multi-container configuration for Web App for Containers
+Follow the [tutorial](https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-multi-container-app) here.
 
-This project framework provides the following features:
+## Contributing
+This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
-* Feature 1
-* Feature 2
-* ...
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
 
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
