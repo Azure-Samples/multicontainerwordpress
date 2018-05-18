@@ -10,7 +10,7 @@ spec:
    - image: redis:3-alpine
      name: redis
 
-   - image: msangapu/wordpress
+   - image: microsoft/multicontainerwordpress
      name: wordpress
      ports:
      - containerPort: 80
