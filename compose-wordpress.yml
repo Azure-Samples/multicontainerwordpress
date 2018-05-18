@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
    wordpress:
-     image: msangapu/wordpress
+     image: microsoft/multicontainerwordpress
      ports:
        - "8000:80"
      restart: always
