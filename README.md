@@ -6,7 +6,7 @@ The following changes have been made in this custom image:
 * [Adds PHP extension for Redis v4.0.2.]()
 * [Adds Baltimore Cyber Trust Root Certificate file for SSL to MySQL.]()
 * [Uses App Setting for MySQL SSL Certificate Authority certificate in WordPress wp-config.php.]()
-* [Uses App Seting for Redis host name in WordPress wp-config.php.]()
+* [Uses App Setting for Redis host name in WordPress wp-config.php.]()
 * [Uses Redis Object Cache 1.3.8 WordPress plugin.]()
 
 ## Setting up multi-container configuration for Web App for Containers
