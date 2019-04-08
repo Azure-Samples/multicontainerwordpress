@@ -1,3 +1,13 @@
+---
+topic: Multi-container using Docker Compose and Kubernetes in Azure Web App for Containers
+languages:
+  - php
+  - docker
+products:
+  - Azure App Service
+  - Azure Web Apps
+---
+
 # Multi-container using Docker Compose and Kubernetes in Azure Web App for Containers
 This custom image is based on the 'official image' of [WordPress from Docker Hub](https://hub.docker.com/_/wordpress/).
 
