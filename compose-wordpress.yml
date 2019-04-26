@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
    wordpress:
-     image: microsoft/multicontainerwordpress
+     image: mcr.microsoft.com/azuredocs/multicontainerwordpress
      ports:
        - "8000:80"
      restart: always
