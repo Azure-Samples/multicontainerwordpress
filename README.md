@@ -1,11 +1,11 @@
 ---
-topic: Multi-container using Docker Compose in Azure Web App for Containers
+page_type: sample
 languages:
-  - php
-  - docker
+- 
 products:
-  - Azure App Service
-  - Azure Web Apps
+- azure
+description: "Multi-container using Docker Compose in Azure Web App for Containers"
+urlFragment: multicontainerwordpress
 ---
 
 # Multi-container using Docker Compose in Azure Web App for Containers
