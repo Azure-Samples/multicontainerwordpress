@@ -1,11 +1,11 @@
 ---
 page_type: sample
 languages:
-- 
+- yaml
 products:
 - azure
-description: "Multi-container using Docker Compose in Azure Web App for Containers"
-urlFragment: multicontainerwordpress
+description: "Multi-container using Docker Compose in Azure Web App for Containers."
+urlFragment: docker-compose-web-app-sample
 ---
 
 # Multi-container using Docker Compose in Azure Web App for Containers
